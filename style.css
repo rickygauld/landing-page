@@ -1,0 +1,74 @@
+/* CSS stylesheet for 'Project: Landing Page' */
+
+/* Type Selectors */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+/* Class Selectors (single) */
+
+.header {
+    font-family: Roboto, serif;
+    background-color: #1f2937;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-one {
+    display: flex;
+}
+
+.content-two {
+    display: flex;
+}
+
+.content-three {
+    display: flex;
+}
+
+.content-four {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
+
+.header-logo {
+    color: #e5e7eb;
+    margin: 0 0 0 64px;
+    padding: 16px 0 16px 16px;
+}
+
+.header-links {
+    margin: 0 64px 0 0;
+    padding: 16px 16px 16px 0;
+
+    display: flex;
+    gap: 16px;
+}
+
+.card-container {
+    display: flex;
+}
+
+/* Grouping & Chaining Selectors */
+
+
+
+/* Combinators */
+
