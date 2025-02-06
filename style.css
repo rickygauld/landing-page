@@ -3,6 +3,8 @@
 /* Type Selectors */
 
 body {
+    margin: 0;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -82,7 +84,13 @@ button {
 }
 
 .footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 32px 80px;
+
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-logo {
