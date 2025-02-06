@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 200px;
+    /* gap: 200px; */
 }
 
 ul {
@@ -52,6 +52,8 @@ button {
 }
 
 .content-two {
+    padding: 40px 80px 80px;
+
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -59,11 +61,24 @@ button {
 }
 
 .content-three {
+    background-color: #e5e7eb;
+    padding: 128px 80px;
+
     display: flex;
+    flex-flow: column wrap;
+    gap: 16px;
 }
 
 .content-four {
+    background-color: #3882f6;
+    margin: 80px;
+    padding: 64px 128px;
+    border-radius: 8px;
+
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
 }
 
 .footer {
@@ -163,9 +178,54 @@ button {
     text-align: center;
 }
 
+.quotation {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 36px;
+    padding: 0 64px;
+}
+
+.quote-author {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0 64px;
+
+    align-self: flex-end;
+}
+
+.content-four-container {
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+}
+
 /* Grouping & Chaining Selectors */
 
 
 
 /* Combinators */
 
+.header img {
+    width: 30px;
+    height: auto;
+}
+
+.content-four-container .title-text {
+    font-size: 24px;
+    font-weight: 600;
+
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 8px;
+}
+
+.content-four button {
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid #f9faf8;
+
+    flex-shrink: 0;
+}
